@@ -1382,7 +1382,8 @@ const createMaterial = function (gltfMaterial, textures, flipV) {
         "KHR_materials_specular": extensionSpecular,
         "KHR_materials_ior": extensionIor,
         "KHR_materials_transmission": extensionTransmission,
-        "KHR_materials_sheen": extensionSheen
+        "KHR_materials_sheen": extensionSheen,
+        "KHR_materials_volume": extensionVolume
     };
 
     // Handle extensions
