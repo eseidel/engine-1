@@ -9,7 +9,9 @@ See them <a href="https://playcanvas.github.io/">running live</a>
 ## Local examples browser development
 This section covers how to locally develop the examples browser application. For information on how to develop individual examples please see the following section.
 
-Ensure you have Node.js installed. Then, install all of the required Node.js dependencies:
+Ensure you have [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed as well as a built version of the PlayCanvas engine present in the `../build` folder. If you haven't already done so, run `npm install` followed by `npm run build` and `npm run build:types` at the root of this repo.
+
+Then inside this folder (/examples) install all of the required Node.js dependencies:
 ```
 npm install
 ```
@@ -21,14 +23,12 @@ and
 ```
 npm run serve
 ```
-Visit [http://localhost:5000]() to view the examples browser.
+Once watch says 'created dist' loading [http://localhost:5000]() should show the examples browser with a "hello world" spinning cube example.
 
 To create the side bar thumbnails run the following script:
 ```
 npm run thumbnails
 ```
-
-Please note that the examples app requires a built version of the engine to be present in the engine repo within the `../build` folder. If you haven't already done so, run `npm install` followed by `npm run build` in the engine repo.
 
 ## Creating an example
 
